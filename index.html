@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fatima Akhtar Tarar</title>
+  <meta name="description" content="Portfolio of Your Name — projects, skills, and contact info.">
+
+  <!-- Fonts: a grotesk display face, a clean body face, and a mono face for the "code" details -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+  <header class="tabbar" id="tabbar">
+    <div class="tabbar__inner">
+      <span class="tabbar__logo">FATIMA<span class="tabbar__logo-dot">.</span></span>
+      <nav class="tabs">
+        <a href="#about" class="tab" data-tab>
+          <span class="tab__dot" aria-hidden="true"></span>about
+        </a>
+        <a href="#projects" class="tab" data-tab>
+          <span class="tab__dot" aria-hidden="true"></span>projects
+        </a>
+        <a href="#skills" class="tab" data-tab>
+          <span class="tab__dot" aria-hidden="true"></span>skills
+        </a>
+        <a href="#education" class="tab" data-tab>
+          <span class="tab__dot" aria-hidden="true"></span>education
+        </a>
+        <a href="#contact" class="tab" data-tab>
+          <span class="tab__dot" aria-hidden="true"></span>contact
+        </a>
+      </nav>
+      <button class="tabbar__menu-btn" id="menuBtn" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    
+    <section class="hero" id="top">
+      <div class="hero__terminal">
+        <div class="hero__terminal-bar">
+          <span class="hero__terminal-dot hero__terminal-dot--red"></span>
+          <span class="hero__terminal-dot hero__terminal-dot--yellow"></span>
+          <span class="hero__terminal-dot hero__terminal-dot--green"></span>
+          <span class="hero__terminal-title">gettoknowme</span>
+        </div>
+        <div class="hero__terminal-body">
+          <p class="hero__line"><span class="hero__prompt">$</span> whoami?</p>
+          <h1 class="hero__name">Fatima Akhtar Tarar</h1>
+          <p class="hero__line hero__typed" id="typedLine">
+            <span class="hero__prompt">$</span> <span id="typedText"></span><span class="hero__cursor" aria-hidden="true">▌</span>
+          </p>
+          <p class="hero__sub">Software engineering student passionate about building projects and connecting with people</p>
+          <div class="hero__cta">
+            <a href="#projects" class="btn btn--primary">View projects</a>
+            <a href="#contact" class="btn btn--ghost">Get in touch</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="section__inner">
+        <p class="section__eyebrow">// about</p>
+        <h2 class="section__title">About Me</h2>
+        <div class="about__grid">
+          <p class="about__text">
+            Thanks for stopping by! I'm a Software Engineering student who loves building things - especially projects that involve front-end web development, marketing, communication, or anything that connects me with people . Beyond code, I'm a writer at heart, even when it's the 'boring' kind, like articles. Right now I'm focused on building practical applications, improving my problem-solving skills, and learning to collaborate well on a software team.
+          </p>
+          <ul class="about__facts">
+            <li><span class="about__fact-label">Based in</span><span>Islamabad, Pakistan</span></li>
+            <li><span class="about__fact-label">Currently</span><span>Studying and Open to work</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section__inner">
+        <p class="section__eyebrow">// projects</p>
+        <h2 class="section__title">Projects</h2>
+
+        <div class="projects__grid">
+
+          <article class="project-card" data-link="https://github.com/fatima-akhtar-t/BattleshipGame.git">
+            <div class="project-card__head">
+              <h3 class="project-card__title">Battleship Game</h3>
+              <a href="https://github.com/fatima-akhtar-t/BattleshipGame.git" target="_blank" rel="noopener" class="project-card__link" aria-label="View Project One on GitHub">
+                <svg viewBox="0 0 16 16" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+              </a>
+            </div>
+            <p class="project-card__desc">
+              A console-based recreation of the classic Battleship game
+            </p>
+            <ul class="project-card__tags">
+              <li>C++</li>
+            </ul>
+          </article>
+
+          <article class="project-card" data-link="https://github.com/fatima-akhtar-t/demopetwebsite.git">
+            <div class="project-card__head">
+              <h3 class="project-card__title">Website Prototype</h3>
+              <a href="https://github.com/fatima-akhtar-t/demopetwebsite.git" target="_blank" rel="noopener" class="project-card__link" aria-label="View Project Two on GitHub">
+                <svg viewBox="0 0 16 16" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+              </a>
+            </div>
+            <p class="project-card__desc">
+              A simple website prototype related to pet products, made in collaboration with a friend
+            </p>
+            <ul class="project-card__tags">
+              <li>HTML</li><li>CSS</li><li>Team Work/Collaboration</li><li>Figma</li>
+            </ul>
+          </article>
+
+          <article class="project-card" data-link="https://github.com/fatima-akhtar-t/neuralnetwork.git">
+            <div class="project-card__head">
+              <h3 class="project-card__title">Multilayer Neural Network</h3>
+              <a href="https://github.com/fatima-akhtar-t/neuralnetwork.git" target="_blank" rel="noopener" class="project-card__link" aria-label="View Project Three on GitHub">
+                <svg viewBox="0 0 16 16" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+              </a>
+            </div>
+            <p class="project-card__desc">
+              Built a Multilayer neural network in Python by implementing basic machine learning and calculus concepts
+            </p>
+            <ul class="project-card__tags">
+              <li>Machine Learning</li><li>Python</li>
+            </ul>
+          </article>
+
+          <article class="project-card" data-link="https://github.com/fatima-akhtar-t/Calendar.git">
+            <div class="project-card__head">
+              <h3 class="project-card__title">Calendar</h3>
+              <a href="https://github.com/fatima-akhtar-t/Calendar.git" target="_blank" rel="noopener" class="project-card__link" aria-label="View Project Three on GitHub">
+                <svg viewBox="0 0 16 16" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+              </a>
+            </div>
+            <p class="project-card__desc">
+              Created a simple, console-based calendar that provides different monthly calendars according to the Gregorian calendar
+            </p>
+            <ul class="project-card__tags">
+              <li>C++</li>
+            </ul>
+          </article>
+
+          <article class="project-card" data-link="https://hilal.gov.pk/view-article.php?i=11153">
+            <div class="project-card__head">
+              <h3 class="project-card__title">Magazine Article</h3></div>
+            <p class="project-card__desc">
+              Wrote an article exploring ancestral values using creative writing and language skills for a magazine
+            </p>
+            <ul class="project-card__tags">
+              <li>Writing</li><li>Language and Communication</li>
+            </ul>
+            </article>
+
+        </div>
+      </div>
+    </section>
+
+  
+    <section class="section" id="skills">
+      <div class="section__inner">
+        <p class="section__eyebrow">// skills</p>
+        <h2 class="section__title">Skills</h2>
+
+        <div class="skills__group">
+          <ul class="pills">
+            <li class="pill">C++</li>
+            <li class="pill">HTML</li>
+            <li class="pill">CSS</li>
+            <li class="pill">Collaboration</li>
+            <li class="pill">Figma</li>
+                <li class="pill">GitHub</li>
+              <li class="pill">Writing</li>
+               <li class="pill">Language and Communication</li>
+          </ul>
+      </div>
+    </section>
+
+    <section class="section" id="education">
+      <div class="section__inner">
+        <p class="section__eyebrow">// education</p>
+        <h2 class="section__title">Education</h2>
+
+        <ul class="commitlog">
+          <li class="commitlog__entry">
+            <span class="commitlog__hash">2025</span>
+            <div class="commitlog__body">
+              <p class="commitlog__title">B.Sc. in Software Engineering — FAST NUCES</p>
+              <p class="commitlog__meta">2025 - Current · Islamabad</p>
+              <p class="commitlog__desc">Currently studying at FAST Islamabad</p>
+            </div>
+          </li>
+          <li class="commitlog__entry">
+            <span class="commitlog__hash">2023</span>
+            <div class="commitlog__body">
+              <p class="commitlog__title">FSc. Pre-Engineering — PGC</p>
+              <p class="commitlog__meta">2023 - 2025 · Rawalpindi</p>
+              <p class="commitlog__desc">Formed a foundation for critical thinking skills</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ======================================================
+         CONTACT
+         EDIT: replace email + social links.
+         ====================================================== -->
+    <section class="section section--contact" id="contact">
+      <div class="section__inner">
+        <p class="section__eyebrow">// contact</p>
+        <h2 class="section__title">Get in touch</h2>
+        <p class="contact__lead">Have a project, a question, or just want to say hi? Drop me an inbox or text!</p>
+
+        <div class="contact__row">
+          <code class="contact__email" id="emailText">fatimatarar2008@gmail.com</code>
+          <button class="btn btn--primary" id="copyBtn" type="button">Copy email</button>
+        </div>
+
+        <div class="contact__socials">
+          <a href="https://github.com/fatima-akhtar-t" target="_blank" rel="noopener" class="social-link" aria-label="GitHub profile">
+            <svg viewBox="0 0 16 16" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+            <span>GitHub</span>
+          </a>
+          <a href="https://linkedin.com/in/your-username" target="_blank" rel="noopener" class="social-link" aria-label="LinkedIn profile">
+            <svg viewBox="0 0 16 16" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M14.82 0H1.18C.53 0 0 .53 0 1.18v13.64C0 15.47.53 16 1.18 16h13.64c.65 0 1.18-.53 1.18-1.18V1.18C16 .53 15.47 0 14.82 0zM4.74 13.6H2.4V6h2.34v7.6zM3.57 5.02a1.36 1.36 0 1 1 0-2.72 1.36 1.36 0 0 1 0 2.72zM13.6 13.6h-2.34V9.9c0-.88-.32-1.48-1.11-1.48-.6 0-.96.41-1.12.8-.06.14-.07.33-.07.53v3.85H6.62s.03-6.25 0-6.9h2.34v.98c.31-.48.87-1.16 2.12-1.16 1.55 0 2.52.96 2.52 2.95v4.13z"/></svg>
+            <span>LinkedIn</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>Built by Fatima Akhtar · <span id="year"></span></p>
+  </footer>
+
+  <script src="script.js"></script>
+
+<script>document.querySelectorAll(".project-card[data-link]").forEach(card=>{card.addEventListener("click",e=>{if(e.target.closest("a")) return; window.open(card.dataset.link,"_blank");});});</script>
+</body>
+</html>
